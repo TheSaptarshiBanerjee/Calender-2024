@@ -1,0 +1,248 @@
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    /* right: 25px; */
+    font-size: 36px;
+    color: white;
+    /* margin-left: 70%; */
+  }
+  .openbtn{
+      top: 0;
+      margin-top: -80%;
+      color: purple;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+     
+     
+  
+  
+      .main {
+          flex: 1;
+          padding: 10px;
+          margin-left: 230px;
+      }
+    
+  
+  #menu{
+      display: block;
+  }
+  
+  
+  
+  body{
+      padding:0;
+  }
+  
+  
+  @media (max-width:768px){
+  
+  html{
+      font-size: 50%;
+  }
+  
+  }
+  
+     
+  
+      h1 {
+          color: purple;
+          margin-left: 30%;
+      }
+  
+      caption {
+          font-size: 30px;
+      }
+  
+      footer {
+          color: white;
+          background-color: purple;
+          padding: 70px;
+          text-align: center;
+         
+      }
+      footer {
+              background-color: rgb(58, 3, 58);
+              color: white;
+              padding: 20px;
+              text-align: center;
+              margin-left: 14%;
+              
+          }
+  
+          .team-member {
+              display: inline-block;
+              margin: 10px;
+          }
+  
+          .team-member img {
+              width: 100px;
+              height: 100px;
+              border-radius: 50%;
+              object-fit: cover;
+          }
+  
+          .team-member p {
+              margin: 5px 0;
+          }
+          .icons{
+      list-style: none;
+    }
+    .icons li{
+      height: 70px;
+      width: 70px;
+      display: inline-block;
+      margin: 5px 10px;
+      cursor: pointer;
+      position: relative;
+    }
+    .icons li:before{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -20px;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      border-radius: 10%;
+      background: #294847;
+      transition: all 0.3s ease-in;
+    }
+    .icons li:hover:before{
+      transform: rotate(360deg);
+      border-radius: 100%;
+    }
+    .icons li a span{
+      font-size: 30px;
+      line-height: 70px;
+      color: #fff;
+      transition: all 0.3s ease-out;
+    }
+    .icons li:hover a span{
+      transform: scale(1.2);
+    }
+    footer h1{
+      color: white;
+      font-size: 20px;
+      margin-left: 2%;
+    }
+  
+         
+      * {
+          box-sizing: border-box;
+      }
+      .table-container {
+              display: flex;
+               justify-content: space; /*You can also use "space-between" or "space-evenly" */
+             
+              
+          
+          }
+  
+  
+     
+  
+      body {
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+         
+      }
+  
+      table {
+          
+          border-collapse: collapse;
+          background: white;
+          color: purple;
+         
+      }
+  
+      th,
+      td {
+          font-weight: bold;
+      }
+      .sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:purple;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .sidenav h1{
+      color: white;
+      font-size: 25px;
+      /* text-align: center; */
+      margin-left: 40px;
+  }
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a, .dropdown-btn {
+    padding: 0px 8px 2px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+  }
+  
+  
+  /* Add an active class to the active dropdown button */
+  .active {
+    background-color:rgb(151, 8, 151);
+    color: white;
+  }
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    background-color: #b8b1b1;
+    padding-left: 8px;
+    padding: 2px;
+    font-size: 15px;
+  }
+  
+  
+  .main h1{
+      margin-left: 40%;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    th, td {
+        font-size: 12px;
+    }
+    table{
+        margin-left: 4px;
+        width: 100%;
+
+    }
+    h1{
+        font-size: 12px;
+        /* text-align: center; */
+    }
+}
